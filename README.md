@@ -25,7 +25,7 @@ There are two options for how to install the plugin.
 This second option is also free, and has the advantage of allowing you to modify Dialogue Tree's ".uplugin" file to compile for platforms that I do not currently support. To do this, simply open up the ".uplugin" file and add the desired platform to the "PlatformAllowList." Just keep in mind that the support I can offer for other platforms may be limited.
 
 ## Supported Engine Versions 
-Currently, the plugin supports Unreal Engine 5.1-5.3. I will be adding support for new versions as they come out. Unfortunately, I will not be able to extend support to engine versions prior to 5.1. 
+Currently, the plugin supports Unreal Engine 5.1-5.4. I will be adding support for new versions as they come out. Unfortunately, I will not be able to extend support to engine versions prior to 5.1. 
 
 ## Supported Platforms 
 Currently, I am only supporting Win64 as a target/development platform. I may extend support to other platforms in future. In the meantime, you are welcome to recompile the plugin for other platforms using the procedure discussed under [**Installation**](README.md#Installation) above, with the caveat mentioned there. 
