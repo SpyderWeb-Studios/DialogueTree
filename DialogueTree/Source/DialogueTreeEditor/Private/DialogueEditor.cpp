@@ -141,13 +141,13 @@ FText FDialogueEditor::GetToolkitToolTipText() const
 
 bool FDialogueEditor::OnRequestClose()
 {
-    return FAssetEditorToolkit::OnRequestClose();
+    return FAssetEditorToolkit::OnRequestClose(EAssetEditorCloseReason::AssetEditorHostClosed);
 }
 
 void FDialogueEditor::AddReferencedObjects(FReferenceCollector& Collector)
 {
     check(TargetDialogue);
-    UEdGraph* TargetGraph = TargetDialogue->GetEdGraph();
+    TObjectPtr<UEdGraph> TargetGraph = TargetDialogue->GetEdGraph();
     check(TargetGraph);
 
     Collector.AddReferencedObject(TargetDialogue);
