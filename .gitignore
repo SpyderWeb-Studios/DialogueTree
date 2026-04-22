@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore for the plugin
+DialogueTree/Binaries/*
+DialogueTree/Intermediate/*
